@@ -1,0 +1,257 @@
+{
+  "main": {
+    "name":"Nick Kwok",
+    "occupation":"Full Stack Developer that has also spent 10 years as a managing director in the non-profit world.",
+    "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn along with a heart to coach, train and empower others",
+    "image":"profilepic.jpg",
+    "bio":"I love to code. I have built a handful of projects using HTML, CSS, Javascript, jQuery, Boostrap, PHP and MySQL. The stack I currently am enjoying the most is using React, Node.js and either NoSQL database langauges like MongoDB and Firebase or an RDBMS like PostgreSQL and MySQL. I'm also an avid woodworker! I stumbled into a passion for woodworking when my neighbors were throwing out a pottery barn dining table and asked if I wanted it. Having zero clue what I was doing, I refinished the table and have not been able to stop restoring and building furniture since. I love the craft of building something tangible and figuring out the best way to build something - quite similar to how I feel about coding!",
+    "contactmessage":"Wanna talk tech, woodworking and/or collaborate on a future project? Drop me a message and lets connect!",
+    "email": "nwkwok@gmail.com",
+    "phone": "925-819-1384",
+    "address":{
+      "street":"182 Valdivia Circle",
+      "city":"San Ramon",
+      "state":"California",
+      "zip": "94583"
+    },
+    "website": "http://www.nwkwok.com",
+    "resumedownload":"http://www.nwkwok.com/resume",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/nwkwok",
+        "className":"fab fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/kwoktok",
+        "className":"fab fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"https://www.google.com",
+        "className":"fab fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/nwkwok/",
+        "className":"fab fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/late.night.woodworker",
+        "className":"fab fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/nwkwok",
+        "className":"fab fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here are the skills, languages and technologies I have learned to use in my time as a Full Stack Developer",
+    "education":[
+      {
+        "school":"University of Richmond",
+        "degree":"Specialized Executive Program (mini MBA)",
+        "graduated":"Summer 2010",
+        "description":"32+ hour of effective business communication, writing, conflict management and leadership curriculum."
+      },
+      {
+        "school":"San Diego State University",
+        "degree":"Bachelors of Science - Business Information and Decision Systems",
+        "graduated":"Class of 2010",
+        "description":"As an IDS major, I took several technical courses: (IDS 306 & 406) - Data and Systems Analysis/Design (IDS 315) - Visual Basic (IDS 380) - Data Management - MySQL, PHP (IDS 460) - Project Management (IDS 481) - E-Business and Web Dev (HTML/CSS, PHP, MySQL) (IDS 492) - Managing/Deploying Information Systems"
+      }
+    ],
+    "work":[
+      {
+        "company":"Silver City Uprising",
+        "title":"Full Stack Development - Intern ",
+        "years":"August 2020 - Present",
+        "description":"Silver City Uprising is a non-profit organization that is building an online platform that provides mentoring and career development to under-resourced youth in hope of decreasing youth involvement with gang activity and increasing community involvement. We are building this platform with a PERN Stack.",
+        "contributions":"Helping to test and develop our API with Node, Express and Postman. Currently helping to integrate Prisma into our API."
+      },
+      {
+        "company":"Greek InterVarsity (Greek IV)",
+        "title":"Greater Los Angeles Managing Director",
+        "years":"February 2011 - Present",
+        "description":"Greek IV is a non-profit orgazniation that holistically develops Fraternity and Sorority students in their leadership development and spiritual growth.", 
+        "contributions":"In my time serving with Greek IV, I helped to expand Greek IV to 7 new campuses impacting ~250 students per year. I have hired, created and executed trainings for 15 intern & staff. I have recruited and developed over 50 key leaders in movement. I have raised over $715k in donations over the span of 10 years. I have organized and ran operations for 2 annual conferences serving ~150 students."
+      },
+      {
+        "company":"The Roof Tiger",
+        "title":"WordPress Engineer",
+        "years":"August 2020 (Contracted)",
+        "description":"The Roof Tiger is a roofing & siding business in Illinois that focuses on loving people, families and their homes.",
+        "contributions":"Re-built and re-deployed The Roof Tiger's website that began collecting customer information immediately proceeding deployment. The original project design was a SPA and is a .gif in my projects section because they have begun to implement design changes to become an MPA with new features."
+      },
+      {
+        "company":"Sigma Phi Epsilon",
+        "title":"Regional Director (IL, IN, WI, MI)",
+        "years":"June 2010 - June 2011",
+        "description":"Sigma Phi Epsilon (SigEp) is a non-profit National Fraternity that complement's the educational experience for fraternity men by delivering premier student experiences. SigEp helps to strengthen character, build leadership and interpersonal skills and learn to develop healthy, lifelong relationships that are essential to a successful and fulfilling life.",
+        "contributions":"As a Regional Director, I oversaw the growth, development and fiscal health of 23 SigEp chapters across 4 states by influencing chapter leadership and cultivating partnership with alumni and university staff. I was a 2x John C. Henry recipient for highest performing Region for of the 4 quarters."
+      },
+      {
+        "company":"AT&T",
+        "title":"IT Project Management Intern",
+        "years":"Summer 2008, Summer 2009 & Winter 2009",
+        "description":"I was accepted into AT&T IT Internship Program where I served alongside a team of developers, testers and project managers.",
+        "contributions":"As an IT Project Management Intern, I assisted three different IT Project Managers in performing audts, impact assessments and performing data migrations. I was two of 8 interns asked to return and received a job offer to become a Junior IT Project Manager."
+      }
+    ],
+    "skills":[
+      {
+        "name":"GitHub",
+        "level":"70%"
+      },
+      {
+        "name":"Javascript",
+        "level":"75%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"75%"
+      },
+      {
+        "name":"CSS/SCSS",
+        "level":"80%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"70%"
+      },
+      {
+        "name":"PostgreSQL/MySQL",
+        "level":"70%"
+      },
+      {
+        "name":"PHP",
+        "level":"50%"
+      },
+      {
+        "name":"WordPress",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Burger Builder",
+        "category":"Create and order a delicious burger :)",
+        "image":"burger.jpg",
+        "url":"https://react-my-burger-a6da6.web.app/",
+        "sourceurl": "https://github.com/nwkwok/React",
+        "techTitle":"Burger Builder",
+        "frontEnd":"Front-end: React & Redux",
+        "backEnd":"Back-end: Axios & Firebase with Firebase auth and deployment",
+        "db":"Database: Firebase"
+      },
+      {
+        "title":"Secrets",
+        "category":"Post one anonymous secret, read countless others!",
+        "image":"secrets.jpg",
+        "url":"https://powerful-shelf-53750.herokuapp.com/",
+        "sourceurl": "https://github.com/nwkwok/SecretsApp",
+        "techTitle":"Secrets Web App",
+        "frontEnd":"Front-end: HTML/CSS/JS",
+        "backEnd":"Back-end: Nodejs, Express and EJS. Bcrypt encryption and OAuth with Passportjs.",
+        "db":"Database: MongoDB & Mongoose ORM"
+      },
+      {
+        "title":"Daily Journal",
+        "category":"Read, compose and store thoughts in this daily journal",
+        "image":"daily-journal.jpg",
+        "url":"https://fast-journey-80841.herokuapp.com/",
+        "sourceurl": "https://github.com/nwkwok/NodeJS-Projects/tree/master/EJS%20Blog",
+        "techTitle":"Daily Journal",
+        "frontEnd":"Front-end: HTML/CSS/JS",
+        "backEnd":"Back-end: Nodejs & Express with EJS to serve pages and Lodash. Deployed on Heroku.",
+        "db":"Database: MongoDB & Mongoose ORM"
+      },
+      {
+        "title":"React Shopping List",
+        "category":"Need something to help organize your shopping runs? Look no further!",
+        "image":"shopping-list.jpg",
+        "url":"https://react-hooks-2e5ac.web.app/",
+        "sourceurl": "https://github.com/nwkwok/React",
+        "techTitle":"React Shopping List",
+        "frontEnd":"Front-end: React showcasing the use of useState, Context, Memo, Ref, Reducer and Callback hooks.",
+        "backEnd":"Back-end: Fetch API to Firebase and Firebase Deployment",
+        "db":"Database: Firebase"
+      },
+      {
+        "title":"React To-Do List",
+        "category":"Need a quick to-do list to help you keep track of your day? Check this one out!",
+        "image":"todo-list.jpg",
+        "url":"",
+        "sourceurl": "https://github.com/nwkwok/PERN-to-do",
+        "techTitle":"React To-Do List",
+        "frontEnd":"Front-end: React with React-Bootstrap",
+        "backEnd":"Back-end: Nodejs, Express and Fetch API for requests",
+        "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
+      },
+      {
+        "title":"Restaurant Finder",
+        "category":"Look up reviewed restaurants and/or add your own restaurant to critique with this handy React Restaurant App!",
+        "image":"restaurant-reviewer.jpg",
+        "url":"",
+        "sourceurl": "https://github.com/nwkwok/Yelp-Clone",
+        "techTitle":"Restaurant Finder",
+        "frontEnd":"Front-end: React styled with React-Bootstrap",
+        "backEnd":"Back-end: Node, Express and Axios for requests.",
+        "db":"Database: PostgreSQL with pg-pool for database queries."
+      },
+      {
+        "title":"The Roof Tiger",
+        "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers.",
+        "image":"roof-tiger.gif",
+        "url":"http://www.rooftiger.com",
+        "sourceurl": "http://www.rooftiger.com",
+        "techTitle":"The Roof Tiger",
+        "frontEnd":"** Owner has changed design since my contract **Front-end: WordPress with Elementor and Astra Template",
+        "backEnd":"Back-end: WPForms and deployed on Hostgator",
+        "db":"Database: WordPress"
+      },
+      {
+        "title":"TripSpirian",
+        "category":"Inspiration for your next travel destination",
+        "image":"tripspirian.jpg",
+        "url":"#projects",
+        "sourceurl": "https://github.com/nwkwok/Tripspirian",
+        "techTitle":"TripSpirian (in development)",
+        "frontEnd":"Front-end: React with CSS-in-JS Styled Components",
+        "backEnd":"Back-end: Nodejs, Express, Bcrypt, JWT Auth, OAuth with PassportJS and Axios for requests.",
+        "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
+      },
+      {
+        "title":"Github Repos",
+        "category":"I have lots of undeployed sideprojects as well. Check'em out!",
+        "image":"github.jpg",
+        "url":"https://github.com/nwkwok",
+        "sourceurl": "https://github.com/nwkwok",
+        "techTitle":"Github Repos",
+        "description":"I have lots of other undeployed side projects as well. You can check them out at my Github Repo!"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}

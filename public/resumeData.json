@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Nick Kwok",
-    "occupation":"Full Stack Developer that has also spent 10 years as a managing director in the non-profit world.",
+    "occupation":"Full Stack Developer that has spent the last decade in the non-profit world, the last five of those years serving as a managing director.",
     "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn along with a heart to coach, train and empower others",
     "image":"profilepic.jpg",
     "bio":"I love to code. I have built a handful of projects using HTML, CSS, Javascript, jQuery, Boostrap, PHP and MySQL. The stack I currently am enjoying the most is using React, Node.js and either NoSQL database langauges like MongoDB and Firebase or an RDBMS like PostgreSQL and MySQL. I'm also an avid woodworker! I stumbled into a passion for woodworking when my neighbors were throwing out a pottery barn dining table and asked if I wanted it. Having zero clue what I was doing, I refinished the table and have not been able to stop restoring and building furniture since. I love the craft of building something tangible and figuring out the best way to build something - quite similar to how I feel about coding!",
@@ -161,12 +161,12 @@
         "db":"Database: MongoDB & Mongoose ORM"
       },
       {
-        "title":"Daily Journal",
-        "category":"Read, compose and store thoughts in this daily journal",
+        "title":"Task List Creator",
+        "category":"Make your own task list by adding a '/<listName' after the .com!",
         "image":"daily-journal.jpg",
-        "url":"https://fast-journey-80841.herokuapp.com/",
-        "sourceurl": "https://github.com/nwkwok/NodeJS-Projects/tree/master/EJS%20Blog",
-        "techTitle":"Daily Journal",
+        "url":"https://desolate-scrubland-58793.herokuapp.com/",
+        "sourceurl": "https://github.com/nwkwok/NodeJS-Projects",
+        "techTitle":"EJS Todo List",
         "frontEnd":"Front-end: HTML/CSS/JS",
         "backEnd":"Back-end: Nodejs & Express with EJS to serve pages and Lodash. Deployed on Heroku.",
         "db":"Database: MongoDB & Mongoose ORM"
@@ -183,12 +183,12 @@
         "db":"Database: Firebase"
       },
       {
-        "title":"React To-Do List",
-        "category":"Need a quick to-do list to help you keep track of your day? Check this one out!",
+        "title":"React Todo List",
+        "category":"Need a quick todo list to help you keep track of your day? Check this one out!",
         "image":"todo-list.jpg",
-        "url":"",
+        "url":"https://nwkwok-todo.herokuapp.com/",
         "sourceurl": "https://github.com/nwkwok/PERN-to-do",
-        "techTitle":"React To-Do List",
+        "techTitle":"React Todo List",
         "frontEnd":"Front-end: React with React-Bootstrap",
         "backEnd":"Back-end: Nodejs, Express and Fetch API for requests",
         "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
@@ -197,7 +197,7 @@
         "title":"Restaurant Finder",
         "category":"Look up reviewed restaurants and/or add your own restaurant to critique with this handy React Restaurant App!",
         "image":"restaurant-reviewer.jpg",
-        "url":"",
+        "url":"https://nwkwok-yelp.herokuapp.com/",
         "sourceurl": "https://github.com/nwkwok/Yelp-Clone",
         "techTitle":"Restaurant Finder",
         "frontEnd":"Front-end: React styled with React-Bootstrap",
@@ -206,13 +206,13 @@
       },
       {
         "title":"The Roof Tiger",
-        "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers.",
+        "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers. Owner has changed designed from my SPA as they are moving to an MPA",
         "image":"roof-tiger.gif",
         "url":"http://www.therooftiger.com",
         "sourceurl": "http://www.therooftiger.com",
         "techTitle":"The Roof Tiger",
-        "frontEnd":"** Owner has changed design since my contract **Front-end: WordPress with Elementor and Astra Template",
-        "backEnd":"Back-end: WPForms and deployed on Hostgator",
+        "frontEnd":"** Owner has changed design since my contract to move from SPA to MPA**Front-end: WordPress with Elementor and Astra",
+        "backEnd":"Back-end: WPForms. Deployed on Hostgator",
         "db":"Database: WordPress"
       },
       {
@@ -221,7 +221,7 @@
         "image":"tripspirian.jpg",
         "url":"#projects",
         "sourceurl": "https://github.com/nwkwok/Tripspirian",
-        "techTitle":"TripSpirian (in development)",
+        "techTitle":"TripSpirian (in dev - follow in github)",
         "frontEnd":"Front-end: React with CSS-in-JS Styled Components",
         "backEnd":"Back-end: Nodejs, Express, Bcrypt, JWT Auth, OAuth with PassportJS and Axios for requests.",
         "db":"Database: PostgreSQL utilizing pg-pool for DB queries."

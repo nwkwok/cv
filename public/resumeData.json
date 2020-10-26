@@ -15,7 +15,7 @@
       "zip": "94583"
     },
     "website": "http://www.nwkwok.com",
-    "resumedownload":"http://www.nwkwok.com/resume",
+    "resumedownload":"https://gofile.io/d/jJKyWN",
     "social":[
       {
         "name":"facebook",
@@ -26,11 +26,6 @@
         "name":"twitter",
         "url":"http://twitter.com/kwoktok",
         "className":"fab fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"https://www.google.com",
-        "className":"fab fa-google-plus"
       },
       {
         "name":"linkedin",

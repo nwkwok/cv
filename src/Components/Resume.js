@@ -22,10 +22,11 @@ class Resume extends Component {
             </p>
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
-        var className = 'fa fab fa-'+skills.name.toLowerCase() + ' ' + 'fab-'+skills.name.toLowerCase() + ''
-        return <li key={skills.name}><span className={className}></span><em>{skills.name}</em></li>
-      })
+      //Using components for this instead
+      // var skills = this.props.data.skills.map(function(skills){
+      //   var className = 'fa fab fa-'+skills.name.toLowerCase() + ' ' + 'fab-'+skills.name.toLowerCase() + ''
+      //   return <li key={skills.name}><span className={className}></span><em>{skills.name}</em></li>
+      // })
     }
 
     return (

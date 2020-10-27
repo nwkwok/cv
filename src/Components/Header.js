@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FontAwesome from './FontAwesome';
 
 class Header extends Component {
   render() {
@@ -42,7 +43,10 @@ class Header extends Component {
       </div>
 
       <p className="scrolldown">
-         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+         <a className="smoothscroll" href="#about">
+            <FontAwesome fa="fas fa-chevron-down" />
+            {/* <i className="icon-down-circle"></i> */}
+            </a>
       </p>
 
    </header>

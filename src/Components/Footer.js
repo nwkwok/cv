@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FontAwesome from './FontAwesome'
 
 class Footer extends Component {
   render() {
@@ -10,6 +11,7 @@ class Footer extends Component {
     }
 
     return (
+
       <footer>
 
      <div className="row">
@@ -23,9 +25,13 @@ class Footer extends Component {
            </ul>
 
         </div>
-        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="fas fa-chevron-up"></i></a></div>
+        <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home">
+          <FontAwesome fa="fas fa-chevron-up"/>
+          {/* <i className="fas fa-chevron-up"></i> */}
+          </a></div>
      </div>
   </footer>
+
     );
   }
 }

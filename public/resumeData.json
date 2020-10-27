@@ -2,7 +2,7 @@
   "main": {
     "name":"Nick Kwok",
     "occupation":"Full Stack Developer that has spent the last decade in the non-profit world, the last five of those years serving as a managing director.",
-    "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn along with a heart to coach, train and empower others",
+    "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn and a heart to coach, train and empower others.",
     "image":"profilepic.jpg",
     "bio":"I love to code. I have built a handful of projects using HTML, CSS, Javascript, jQuery, Boostrap, PHP and MySQL. The stack I currently am enjoying the most is using React, Node.js and either NoSQL database langauges like MongoDB and Firebase or an RDBMS like PostgreSQL and MySQL. I'm also an avid woodworker! I stumbled into a passion for woodworking when my neighbors were throwing out a pottery barn dining table and asked if I wanted it. Having zero clue what I was doing, I refinished the table and have not been able to stop restoring and building furniture since. I love the craft of building something tangible and figuring out the best way to build something - quite similar to how I feel about coding!",
     "contactmessage":"Wanna talk tech, woodworking and/or collaborate on a future project? Drop me a message and lets connect!",
@@ -63,17 +63,10 @@
     "work":[
       {
         "company":"Silver City Uprising",
-        "title":"Full Stack Development - Intern ",
+        "title":"Full Stack Developer - Intern ",
         "years":"August 2020 - Present",
         "description":"Silver City Uprising is a non-profit organization that is building an online platform that provides mentoring and career development to under-resourced youth in hope of decreasing youth involvement with gang activity and increasing community involvement. We are building this platform with a PERN Stack.",
         "contributions":"Helping to test and develop our API with Node, Express and Postman. Currently helping to integrate Prisma into our API."
-      },
-      {
-        "company":"Greek InterVarsity (Greek IV)",
-        "title":"Greater Los Angeles Managing Director",
-        "years":"February 2011 - Present",
-        "description":"Greek IV is a non-profit orgazniation that holistically develops Fraternity and Sorority students in their leadership development and spiritual growth.", 
-        "contributions":"In my time serving with Greek IV, I helped to expand Greek IV to 7 new campuses impacting ~250 students per year. I have hired, created and executed trainings for 15 intern & staff. I have recruited and developed over 50 key leaders in movement. I have raised over $715k in donations over the span of 10 years. I have organized and ran operations for 2 annual conferences serving ~150 students."
       },
       {
         "company":"The Roof Tiger",
@@ -82,6 +75,14 @@
         "description":"The Roof Tiger is a roofing & siding business in Illinois that focuses on loving people, families and their homes.",
         "contributions":"Re-built and re-deployed The Roof Tiger's website that began collecting customer information immediately proceeding deployment. The original project design was a SPA and is a .gif in my projects section because they have begun to implement design changes to become an MPA with new features."
       },
+      {
+        "company":"Greek InterVarsity (Greek IV)",
+        "title":"Greater Los Angeles Managing Director",
+        "years":"February 2011 - Present",
+        "description":"Greek IV is a non-profit orgazniation that holistically develops Fraternity and Sorority students in their leadership development and spiritual growth.", 
+        "contributions":"In my time serving with Greek IV, I helped to expand Greek IV to 7 new campuses impacting ~250 students per year. I have hired, created and executed trainings for 15 intern & staff. I have recruited and developed over 50 key leaders in movement. I have raised over $715k in donations over the span of 10 years. I have organized and ran operations for 2 annual conferences serving ~150 students."
+      },
+ 
       {
         "company":"Sigma Phi Epsilon",
         "title":"Regional Director (IL, IN, WI, MI)",
@@ -139,15 +140,48 @@
   "portfolio":{
     "projects": [
       {
+        "title":"The Roof Tiger",
+        "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers. Owner has changed designed from my SPA as they are moving to an MPA",
+        "image":"roof-tiger.gif",
+        "url":"http://www.therooftiger.com",
+        "sourceurl": "http://www.therooftiger.com",
+        "techTitle":"The Roof Tiger",
+        "frontEnd":"** Owner has changed design since my contract to move from SPA to MPA ** Front-end: WordPress - Elementor & Astra",
+        "backEnd":"Back-end: WPForms & Hostgator",
+        "db":"Database: WPForms"
+      },
+      {
         "title":"Burger Builder",
         "category":"Create and order a delicious burger :)",
         "image":"burger.jpg",
         "url":"https://react-my-burger-a6da6.web.app/",
         "sourceurl": "https://github.com/nwkwok/React",
         "techTitle":"Burger Builder",
-        "frontEnd":"Front-end: React & Redux",
-        "backEnd":"Back-end: Firebase auth and deployment, Axios requests & Jest testing",
+        "frontEnd":"Front-end: React & Redux styled with CSS Modules",
+        "backEnd":"Back-end: Firebase authentication and deployment, Axios requests & Jest & Enzyme testing",
         "db":"Database: Firebase"
+      },
+      {
+        "title":"TripSpirian",
+        "category":"Inspiration for your next travel destination",
+        "image":"tripspirian.jpg",
+        "url":"#projects",
+        "sourceurl": "https://github.com/nwkwok/Tripspirian",
+        "techTitle":"TripSpirian (in development - follow in github)",
+        "frontEnd":"Front-End: (In Development) React & Styled Components",
+        "backEnd":"Back-end: (Complete) Nodejs, Express, Bcrypt, JWT Auth and Axios for requests.",
+        "db":"Database: (Complete) PostgreSQL pg-pool for DB queries."
+      },
+      {
+        "title":"React Todo List",
+        "category":"Need a quick todo list to help you keep track of your day? Check this one out!",
+        "image":"todo-list.jpg",
+        "url":"https://nwkwok-todo.herokuapp.com/",
+        "sourceurl": "https://github.com/nwkwok/PERN-to-do",
+        "techTitle":"React Todo List",
+        "frontEnd":"Front-end: React & Bootstrap",
+        "backEnd":"Back-end: Nodejs, Express and Fetch API for requests",
+        "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
       },
       {
         "title":"Secrets",
@@ -161,18 +195,6 @@
         "db":"Database: MongoDB & Mongoose ORM"
       },
       {
-        "title":"TripSpirian",
-        "category":"Inspiration for your next travel destination",
-        "image":"tripspirian.jpg",
-        "url":"#projects",
-        "sourceurl": "https://github.com/nwkwok/Tripspirian",
-        "techTitle":"TripSpirian (in dev - follow in github)",
-        "frontEnd":"Front-End: (Development) React & Styled Components",
-        "backEnd":"Back-end: (Complete) Nodejs, Express, Bcrypt, JWT Auth and Axios for requests.",
-        "db":"Database: (Complete) PostgreSQL pg-pool for DB queries."
-      },
-      
-      {
         "title":"React Shopping List",
         "category":"Need something to help organize your shopping runs? Look no further!",
         "image":"shopping-list.jpg",
@@ -182,17 +204,6 @@
         "frontEnd":"Front-end: React showcasing the use of useState, Context, Memo, Ref, Reducer and Callback hooks.",
         "backEnd":"Back-end: Fetch API to Firebase and Firebase Deployment",
         "db":"Database: Firebase"
-      },
-      {
-        "title":"React Todo List",
-        "category":"Need a quick todo list to help you keep track of your day? Check this one out!",
-        "image":"todo-list.jpg",
-        "url":"https://nwkwok-todo.herokuapp.com/",
-        "sourceurl": "https://github.com/nwkwok/PERN-to-do",
-        "techTitle":"React Todo List",
-        "frontEnd":"Front-end: React & Bootstrap",
-        "backEnd":"Back-end: Nodejs, Express and Fetch API for requests",
-        "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
       },
       {
         "title":"Restaurant Finder",
@@ -216,17 +227,7 @@
         "backEnd":"Back-end: Nodejs & Express with EJS to serve pages and Lodash. Deployed on Heroku.",
         "db":"Database: MongoDB & Mongoose ORM"
       },
-      {
-        "title":"The Roof Tiger",
-        "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers. Owner has changed designed from my SPA as they are moving to an MPA",
-        "image":"roof-tiger.gif",
-        "url":"http://www.therooftiger.com",
-        "sourceurl": "http://www.therooftiger.com",
-        "techTitle":"The Roof Tiger",
-        "frontEnd":"** Owner has changed design since my contract to move from SPA to MPA ** Front-end: WordPress - Elementor & Astra",
-        "backEnd":"Back-end: WPForms & Hostgator",
-        "db":"Database: WPForms"
-      },
+
       {
         "title":"Github Repos",
         "category":"I have lots of undeployed sideprojects as well. Check'em out!",

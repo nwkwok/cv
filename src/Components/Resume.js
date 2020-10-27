@@ -64,11 +64,11 @@ class Resume extends Component {
                 <li><FontAwesome fa="fab fa-react fa-8x" skillname="React + Redux"/></li>
                 <li><FontAwesome fa="fab fa-github fa-8x" skillname="Git + GitHub"/></li>
                 <li><FontAwesome fa="fab fa-css3-alt fa-8x" skillname="CSS3"/></li>
-                <li><FontAwesome fa="fab fa-wordpress-simple fa-6x" skillname="WordPress"/></li>
-                <li><FontAwesome fa="fab fa-sass fa-6x" skillname="SASS/SCSS"/></li>
+                <li><FontAwesome fa="fab fa-wordpress-simple fa-8x" skillname="WordPress"/></li>
+                <li><FontAwesome fa="fab fa-sass fa-7x" skillname="SASS/SCSS"/></li>
                 <li><FontAwesome fa="fab fa-js fa-8x" skillname="JS + jQuery"/></li>
                 <li><FontAwesome fa="fab fa-node-js fa-8x" skillname="Node"/></li>
-                <li><FontAwesome fa="fab fa-php fa-6x" skillname="PHP"/></li>
+                <li><FontAwesome fa="fab fa-php fa-7x" skillname="PHP"/></li>
                 <li><FontAwesome fa="fas fa-database fa-7x" skillname="MongoDB"/></li>
                 <li><FontAwesome fa="fas fa-table fa-7x" skillname="PostgreSQL"/></li>
                 <li><FontAwesome fa="fas fa-fire-alt fa-8x" skillname="Firebase"/></li>

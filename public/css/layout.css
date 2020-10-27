@@ -67,7 +67,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #ffa56a;
+   color: #fa7720;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 2px 2px rgba(0, 0, 0, .5);
@@ -182,7 +182,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #ffa56a; }
+ul#nav li.current a { color: #fa7720; }
 
 
 /* ------------------------------------------------------------------ */

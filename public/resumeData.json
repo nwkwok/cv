@@ -146,7 +146,7 @@
         "sourceurl": "https://github.com/nwkwok/React",
         "techTitle":"Burger Builder",
         "frontEnd":"Front-end: React & Redux",
-        "backEnd":"Back-end: Axios & Firebase with Firebase auth and deployment",
+        "backEnd":"Back-end: Firebase auth and deployment, Axios requests & Jest testing",
         "db":"Database: Firebase"
       },
       {
@@ -161,16 +161,17 @@
         "db":"Database: MongoDB & Mongoose ORM"
       },
       {
-        "title":"Task List Creator",
-        "category":"Make your own task list by adding a '/<listName' after the .com!",
-        "image":"daily-journal.jpg",
-        "url":"https://desolate-scrubland-58793.herokuapp.com/",
-        "sourceurl": "https://github.com/nwkwok/NodeJS-Projects",
-        "techTitle":"EJS Todo List",
-        "frontEnd":"Front-end: HTML/CSS/JS",
-        "backEnd":"Back-end: Nodejs & Express with EJS to serve pages and Lodash. Deployed on Heroku.",
-        "db":"Database: MongoDB & Mongoose ORM"
+        "title":"TripSpirian",
+        "category":"Inspiration for your next travel destination",
+        "image":"tripspirian.jpg",
+        "url":"#projects",
+        "sourceurl": "https://github.com/nwkwok/Tripspirian",
+        "techTitle":"TripSpirian (in dev - follow in github)",
+        "frontEnd":"Front-End: (Development) React & Styled Components",
+        "backEnd":"Back-end: (Complete) Nodejs, Express, Bcrypt, JWT Auth and Axios for requests.",
+        "db":"Database: (Complete) PostgreSQL pg-pool for DB queries."
       },
+      
       {
         "title":"React Shopping List",
         "category":"Need something to help organize your shopping runs? Look no further!",
@@ -189,7 +190,7 @@
         "url":"https://nwkwok-todo.herokuapp.com/",
         "sourceurl": "https://github.com/nwkwok/PERN-to-do",
         "techTitle":"React Todo List",
-        "frontEnd":"Front-end: React with React-Bootstrap",
+        "frontEnd":"Front-end: React & Bootstrap",
         "backEnd":"Back-end: Nodejs, Express and Fetch API for requests",
         "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
       },
@@ -205,26 +206,26 @@
         "db":"Database: PostgreSQL with pg-pool for database queries."
       },
       {
+        "title":"Task List Creator",
+        "category":"Make your own task list by adding a '/<listName' after the .com!",
+        "image":"daily-journal.jpg",
+        "url":"https://desolate-scrubland-58793.herokuapp.com/",
+        "sourceurl": "https://github.com/nwkwok/NodeJS-Projects",
+        "techTitle":"EJS Todo List",
+        "frontEnd":"Front-end: HTML/CSS/JS",
+        "backEnd":"Back-end: Nodejs & Express with EJS to serve pages and Lodash. Deployed on Heroku.",
+        "db":"Database: MongoDB & Mongoose ORM"
+      },
+      {
         "title":"The Roof Tiger",
         "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers. Owner has changed designed from my SPA as they are moving to an MPA",
         "image":"roof-tiger.gif",
         "url":"http://www.therooftiger.com",
         "sourceurl": "http://www.therooftiger.com",
         "techTitle":"The Roof Tiger",
-        "frontEnd":"** Owner has changed design since my contract to move from SPA to MPA**Front-end: WordPress with Elementor and Astra",
-        "backEnd":"Back-end: WPForms. Deployed on Hostgator",
-        "db":"Database: WordPress"
-      },
-      {
-        "title":"TripSpirian",
-        "category":"Inspiration for your next travel destination",
-        "image":"tripspirian.jpg",
-        "url":"#projects",
-        "sourceurl": "https://github.com/nwkwok/Tripspirian",
-        "techTitle":"TripSpirian (in dev - follow in github)",
-        "frontEnd":"Front-end: React with CSS-in-JS Styled Components",
-        "backEnd":"Back-end: Nodejs, Express, Bcrypt, JWT Auth, OAuth with PassportJS and Axios for requests.",
-        "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
+        "frontEnd":"** Owner has changed design since my contract to move from SPA to MPA ** Front-end: WordPress - Elementor & Astra",
+        "backEnd":"Back-end: WPForms & Hostgator",
+        "db":"Database: WPForms"
       },
       {
         "title":"Github Repos",
@@ -240,12 +241,12 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"",
+        "user":""
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"",
+        "user":""
       }
     ]
   }

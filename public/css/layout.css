@@ -461,7 +461,7 @@ ul#nav li.current a { color: #F06000; }
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
-   overflow: hidden;
+   overflow: auto;
    position: relative;
 
    -webkit-transition: all 0.3s ease-in-out;

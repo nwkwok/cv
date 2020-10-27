@@ -31,8 +31,6 @@ class Resume extends Component {
 
     return (
       <section id="resume">
-
-
       <div className="row work">
          <div className="three columns header-col">
             <h1><span>Work</span></h1>
@@ -57,22 +55,10 @@ class Resume extends Component {
          </div>
       </div>
 
-
-
-
-      <div className="row skill">
-
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="twelve columns main-col flex-container">
-
-            <p>{skillmessage}
-            </p>
-
-
-          <div className="fa-skills">
+      <div id="techSkill" className="row skill">
+        <h1><span>Skills</span></h1>
+        <p>{skillmessage}</p>
+        <div className="fa-skills">
             <ul className="skill-container">
                 <li><FontAwesome fa="fab fa-html5 fa-8x" skillname="HTML5"/></li>
                 <li><FontAwesome fa="fab fa-react fa-8x" skillname="React + Redux"/></li>
@@ -89,8 +75,6 @@ class Resume extends Component {
                 
             </ul>
           </div>
-          
-			</div>
       </div>
    </section>
     );

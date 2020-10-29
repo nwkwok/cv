@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Nick Kwok",
-    "occupation":"Full Stack Developer that has spent the last decade in the non-profit world, the last five of those years serving as a managing director.",
+    "occupation":"Full Stack Developer that has spent the last decade in the non-profit world, the last five of those years serving as a managing director",
     "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn and a heart to coach, train and empower others.",
     "image":"profilepic.jpg",
     "bio":"I love to code. I have built a handful of projects using HTML, CSS, Javascript, jQuery, Boostrap, PHP and MySQL. The stack I currently am enjoying the most is using React, Node.js and either NoSQL database langauges like MongoDB and Firebase or an RDBMS like PostgreSQL and MySQL. I'm also an avid woodworker! I stumbled into a passion for woodworking when my neighbors were throwing out a pottery barn dining table and asked if I wanted it. Having zero clue what I was doing, I refinished the table and have not been able to stop restoring and building furniture since. I love the craft of building something tangible and figuring out the best way to build something - quite similar to how I feel about coding!",
@@ -20,6 +20,11 @@
         "name":"facebook",
         "url":"http://facebook.com/nwkwok",
         "className":"fab fa-facebook"
+      },
+      {
+        "name":"youtube",
+        "url":"https://www.youtube.com/c/nwkwok",
+        "className":"fab fa-youtube"
       },
       {
         "name":"twitter",

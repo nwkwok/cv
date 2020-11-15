@@ -168,7 +168,7 @@
         "title":"TripSpirian",
         "category":"Inspiration for your next travel destination",
         "image":"tripspirian.jpg",
-        "url":"#projects",
+        "url":"https://github.com/nwkwok/Tripspirian",
         "sourceurl": "https://github.com/nwkwok/Tripspirian",
         "techTitle":"TripSpirian (in development - follow in github)",
         "frontEnd":"Front-End: (In Development) React & Styled Components",

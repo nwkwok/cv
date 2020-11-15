@@ -26,8 +26,8 @@ class Portfolio extends Component {
             <br />{projects.backEnd}
             <br />{projects.db}</p>
           
-            <a href={projects.sourceurl} className="button sourceCodeButton"><i className="fa fa-code"></i> Source Code</a>
-            <a href={projects.url} className="button liveSitebutton"><i className="fa fa-link"></i> Live Site</a>
+            <a href={projects.sourceurl} target="_blank" className="button sourceCodeButton"><i className="fa fa-code"></i> Source Code</a>
+            <a href={projects.url} target="_blank" className="button liveSitebutton"><i className="fa fa-link"></i> Live Site</a>
           </div>
         </div>
         

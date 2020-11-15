@@ -2,7 +2,7 @@
   "main": {
     "name":"Nick Kwok",
     "occupation":"Full Stack Developer that has spent the last decade in the non-profit world, the last five of those years serving as a managing director",
-    "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn and a heart to coach, train and empower others.",
+    "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn and a heart to coach, train and empower others",
     "image":"profilepic.jpg",
     "bio":"I love to code. I have built a handful of projects using HTML, CSS, Javascript, jQuery, Boostrap, PHP and MySQL. The stack I currently am enjoying the most is using React, Node.js and either NoSQL database langauges like MongoDB and Firebase or an RDBMS like PostgreSQL and MySQL. I'm also an avid woodworker! I stumbled into a passion for woodworking when my neighbors were throwing out a pottery barn dining table and asked if I wanted it. Having zero clue what I was doing, I refinished the table and have not been able to stop restoring and building furniture since. I love the craft of building something tangible and figuring out the best way to build something - quite similar to how I feel about coding!",
     "contactmessage":"Wanna talk tech, woodworking and/or collaborate on a future project? Drop me a message and lets connect!",
@@ -14,7 +14,7 @@
       "state":"94583"
     },
     "website": "http://www.nwkwok.com",
-    "resumedownload":"https://gofile.io/d/jJKyWN",
+    "resumedownload":"https://www.dropbox.com/s/326ac6c04b0g7uq/Nick%20Kwok%20Full%20Stack%20Developer%20Resume.pdf?dl=0",
     "social":[
       {
         "name":"facebook",
@@ -28,7 +28,7 @@
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com/kwoktok",
+        "url":"http://twitter.com/nwkwok",
         "className":"fab fa-twitter"
       },
       {
@@ -70,14 +70,14 @@
         "title":"Full Stack Developer - Intern ",
         "years":"August 2020 - Present",
         "description":"Silver City Uprising is a non-profit organization that is building an online platform that provides mentoring and career development to under-resourced youth in hope of decreasing youth involvement with gang activity and increasing community involvement. We are building this platform with a PERN Stack.",
-        "contributions":"Helping to test and develop our API with Node, Express and Postman. Currently helping to integrate Prisma into our API."
+        "contributions":"Built and styled several React Components for member's portal UI to improve UX.Built back-end API that allows members to access the core features of SCU's portal. Currently helping to integrate Prisma into our API."
       },
       {
         "company":"The Roof Tiger",
         "title":"WordPress Engineer",
         "years":"August 2020 (Contracted)",
         "description":"The Roof Tiger is a roofing & siding business in Illinois that focuses on loving people, families and their homes.",
-        "contributions":"Re-built and re-deployed The Roof Tiger's website that began collecting customer information immediately proceeding deployment. The original project design was a SPA and is a .gif in my projects section because they have begun to implement design changes to become an MPA with new features."
+        "contributions":"Designed, built and deployed a website for The Roof Tiger with WordPress and helped them collect customer contact info in one week. I used Elementor to build, setup their contact database with WPForms and setup them up for eCommerce using WooCommerce. See my portfolio for original design prior to their changes."
       },
       {
         "company":"Greek InterVarsity (Greek IV)",
@@ -86,7 +86,6 @@
         "description":"Greek IV is a non-profit orgazniation that holistically develops Fraternity and Sorority students in their leadership development and spiritual growth.", 
         "contributions":"In my time serving with Greek IV, I helped to expand Greek IV to 7 new campuses impacting ~250 students per year. I have hired, created and executed trainings for 15 intern & staff. I have recruited and developed over 50 key leaders in movement. I have raised over $715k in donations over the span of 10 years. I have organized and ran operations for 2 annual conferences serving ~150 students."
       },
- 
       {
         "company":"Sigma Phi Epsilon",
         "title":"Regional Director (IL, IN, WI, MI)",
@@ -145,12 +144,12 @@
     "projects": [
       {
         "title":"The Roof Tiger",
-        "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers. Owner has changed designed from my SPA as they are moving to an MPA",
+        "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers.",
         "image":"roof-tiger.gif",
         "url":"http://www.therooftiger.com",
         "sourceurl": "http://www.therooftiger.com",
         "techTitle":"The Roof Tiger",
-        "frontEnd":"** Owner has changed design since my contract to move from SPA to MPA ** Front-end: WordPress - Elementor & Astra",
+        "frontEnd":"** Since building this site, the design has changed. Above is my original design.** Front-end: WordPress - Elementor & Astra",
         "backEnd":"Back-end: WPForms & Hostgator",
         "db":"Database: WPForms"
       },
@@ -162,7 +161,7 @@
         "sourceurl": "https://github.com/nwkwok/React",
         "techTitle":"Burger Builder",
         "frontEnd":"Front-end: React & Redux styled with CSS Modules",
-        "backEnd":"Back-end: Firebase authentication and deployment, Axios requests & Jest & Enzyme testing",
+        "backEnd":"Back-end: Firebase authentication and deployment, Axios requests, Jest & Enzyme testing",
         "db":"Database: Firebase"
       },
       {
@@ -177,17 +176,6 @@
         "db":"Database: (Complete) PostgreSQL pg-pool for DB queries."
       },
       {
-        "title":"React Todo List",
-        "category":"Need a quick todo list to help you keep track of your day? Check this one out!",
-        "image":"todo-list.jpg",
-        "url":"https://nwkwok-todo.herokuapp.com/",
-        "sourceurl": "https://github.com/nwkwok/PERN-to-do",
-        "techTitle":"React Todo List",
-        "frontEnd":"Front-end: React & Bootstrap",
-        "backEnd":"Back-end: Nodejs, Express and Fetch API for requests",
-        "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
-      },
-      {
         "title":"Secrets",
         "category":"Post one anonymous secret, read countless others!",
         "image":"secrets.jpg",
@@ -195,8 +183,19 @@
         "sourceurl": "https://github.com/nwkwok/SecretsApp",
         "techTitle":"Secrets Web App",
         "frontEnd":"Front-end: HTML/CSS/JS",
-        "backEnd":"Back-end: Nodejs, Express and EJS. Bcrypt encryption and OAuth with Passportjs.",
+        "backEnd":"Back-end: Nodejs, Express and EJS. Bcrypt for encryption and Google OAuth using Passportjs. Deployed on Heroku",
         "db":"Database: MongoDB & Mongoose ORM"
+      },      
+      {
+        "title":"Restaurant Finder",
+        "category":"Look up reviewed restaurants and/or add your own restaurant to critique with this handy React Restaurant App!",
+        "image":"restaurant-reviewer.jpg",
+        "url":"https://nwkwok-yelp.herokuapp.com/",
+        "sourceurl": "https://github.com/nwkwok/Yelp-Clone",
+        "techTitle":"Restaurant Finder",
+        "frontEnd":"Front-end: React Bootstrap",
+        "backEnd":"Back-end: Node, Express and Axios for requests.",
+        "db":"Database: PostgreSQL with pg-pool for db queries."
       },
       {
         "title":"React Shopping List",
@@ -209,16 +208,17 @@
         "backEnd":"Back-end: Fetch API to Firebase and Firebase Deployment",
         "db":"Database: Firebase"
       },
+
       {
-        "title":"Restaurant Finder",
-        "category":"Look up reviewed restaurants and/or add your own restaurant to critique with this handy React Restaurant App!",
-        "image":"restaurant-reviewer.jpg",
-        "url":"https://nwkwok-yelp.herokuapp.com/",
-        "sourceurl": "https://github.com/nwkwok/Yelp-Clone",
-        "techTitle":"Restaurant Finder",
-        "frontEnd":"Front-end: React styled with React-Bootstrap",
-        "backEnd":"Back-end: Node, Express and Axios for requests.",
-        "db":"Database: PostgreSQL with pg-pool for database queries."
+        "title":"React Todo List",
+        "category":"Need a quick todo list to help you keep track of your day? Check this one out!",
+        "image":"todo-list.jpg",
+        "url":"https://nwkwok-todo.herokuapp.com/",
+        "sourceurl": "https://github.com/nwkwok/PERN-to-do",
+        "techTitle":"React Todo List",
+        "frontEnd":"Front-end: React & Bootstrap",
+        "backEnd":"Back-end: Nodejs, Express and Fetch API for requests",
+        "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
       },
       {
         "title":"Task List Creator",
@@ -231,7 +231,6 @@
         "backEnd":"Back-end: Nodejs & Express with EJS to serve pages and Lodash. Deployed on Heroku.",
         "db":"Database: MongoDB & Mongoose ORM"
       },
-
       {
         "title":"Github Repos",
         "category":"I have lots of undeployed sideprojects as well. Check'em out!",

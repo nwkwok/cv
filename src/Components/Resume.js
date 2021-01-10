@@ -64,6 +64,7 @@ class Resume extends Component {
                 <li><FontAwesome fa="fab fa-react fa-8x" skillname="React + Redux"/></li>
                 <li><FontAwesome fa="fab fa-github fa-8x" skillname="Git + GitHub"/></li>
                 <li><FontAwesome fa="fab fa-css3-alt fa-8x" skillname="CSS3"/></li>
+                <li><FontAwesome fa="fab fa-python fa-8x" skillname="Python"/></li>
                 <li><FontAwesome fa="fab fa-wordpress-simple fa-8x" skillname="WordPress"/></li>
                 <li><FontAwesome fa="fab fa-sass fa-7x" skillname="SASS/SCSS"/></li>
                 <li><FontAwesome fa="fab fa-js fa-8x" skillname="JS + jQuery"/></li>

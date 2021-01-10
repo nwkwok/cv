@@ -1,16 +1,16 @@
 {
   "main": {
     "name":"Nick Kwok",
-    "occupation":"Full Stack Developer that has spent the last decade in the non-profit world, the last five of those years serving as a managing director",
-    "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn and a heart to coach, train and empower others",
+    "occupation":"Full Stack Developer",
+    "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn/grow as a developer and a heart to coach, train and empower others",
     "image":"profilepic.jpg",
-    "bio":"I love to code. I have built a handful of projects using HTML, CSS, Javascript, jQuery, Boostrap, PHP and MySQL. The stack I currently am enjoying the most is using React, Node.js and either NoSQL database langauges like MongoDB and Firebase or an RDBMS like PostgreSQL and MySQL. I'm also an avid woodworker! I stumbled into a passion for woodworking when my neighbors were throwing out a pottery barn dining table and asked if I wanted it. Having zero clue what I was doing, I refinished the table and have not been able to stop restoring and building furniture since. I love the craft of building something tangible and figuring out the best way to build something - quite similar to how I feel about coding!",
-    "contactmessage":"Wanna talk tech, woodworking and/or collaborate on a future project? Drop me a message and lets connect!",
+    "bio":"I am a developer that is passionate about empowering people and businesses through the power of technology. I enjoy experimenting with new technologies and incorporating them into new projects. I'm currently developing an app called TripSpirian utilizing a React, Experss, Node and PostgreSQL stack and pushing code to my GitHub almost everyday! If you want to connect and talk dev, my contact info is below!",
+    "contactmessage":"Wanna talk tech and/or collaborate on a future project? Drop me a message and lets connect!",
     "email": "nwkwok@gmail.com",
     "phone": "925-819-1384",
     "address":{
       "street":"Based in:",
-      "city":"San Ramon, CA",
+      "city":"SF - East Bay",
       "state":"94583"
     },
     "website": "http://www.nwkwok.com",
@@ -66,11 +66,18 @@
     ],
     "work":[
       {
+        "company":"Arcaio",
+        "title":"Software Engineer - Intern ",
+        "years":"January 2021 - Present",
+        "description":"Arcaio provides strategic consulting and advisory services for technology companies, including several high profile startups in the SF Bay Area and Los Angeles.",
+        "contributions":"Received direct mentorship from senior developer on Python and software fundamentals. Developed Python library to aggregate and visualize table statistics using Pandas, Matplotlib and AWS Athena."
+      },
+      {
         "company":"Silver City Uprising",
         "title":"Full Stack Developer - Intern ",
-        "years":"August 2020 - Present",
-        "description":"Silver City Uprising is a non-profit organization that is building an online platform that provides mentoring and career development to under-resourced youth in hope of decreasing youth involvement with gang activity and increasing community involvement. We are building this platform with a PERN Stack.",
-        "contributions":"Built and styled several React Components for member's portal UI to improve UX.Built back-end API that allows members to access the core features of SCU's portal. Currently helping to integrate Prisma into our API."
+        "years":"August 2020 - January 2021",
+        "description":"Silver City Uprising is a non-profit organization that is building an online platform that provides mentoring and career development to under-resourced youth in hope of decreasing youth involvement with gang activity and increasing community involvement. We are building this platform with a PERN (PostgreSQL, Express, React, Node Stack) stack.",
+        "contributions":"Built and styled several React Components for member's portal UI to improve UX. Built back-end API that allows members to access the core features of SCU's portal."
       },
       {
         "company":"The Roof Tiger",
@@ -143,37 +150,13 @@
   "portfolio":{
     "projects": [
       {
-        "title":"The Roof Tiger",
-        "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers.",
-        "image":"roof-tiger.gif",
-        "url":"http://www.therooftiger.com",
-        "sourceurl": "http://www.therooftiger.com",
-        "techTitle":"The Roof Tiger",
-        "frontEnd":"** Since building this site, the design has changed. Above is my original design.** Front-end: WordPress - Elementor & Astra",
-        "backEnd":"Back-end: WPForms & Hostgator",
-        "db":"Database: WPForms"
-      },
-      {
-        "title":"Burger Builder",
-        "category":"Create and order a delicious burger :)",
-        "image":"burger.jpg",
-        "url":"https://react-my-burger-a6da6.web.app/",
-        "sourceurl": "https://github.com/nwkwok/React",
-        "techTitle":"Burger Builder",
-        "frontEnd":"Front-end: React & Redux styled with CSS Modules",
-        "backEnd":"Back-end: Firebase authentication and deployment, Axios requests, Jest & Enzyme testing",
-        "db":"Database: Firebase"
-      },
-      {
-        "title":"TripSpirian",
-        "category":"Inspiration for your next travel destination",
-        "image":"tripspirian.jpg",
-        "url":"https://github.com/nwkwok/Tripspirian",
-        "sourceurl": "https://github.com/nwkwok/Tripspirian",
-        "techTitle":"TripSpirian (in development - follow in github)",
-        "frontEnd":"Front-End: (In Development) React & Styled Components",
-        "backEnd":"Back-end: (Complete) Nodejs, Express, Bcrypt, JWT Auth and Axios for requests.",
-        "db":"Database: (Complete) PostgreSQL pg-pool for DB queries."
+        "title":"Designo Multi-Page Site",
+        "category":"Made a fully responsive website after being given the Figma design",
+        "image":"designo.jpg",
+        "url":"https://designo.nwkwok.vercel.app",
+        "sourceurl": "https://github.com/nwkwok/Frontend-Mentor-Challenges2/tree/main/designo-multi-page-website",
+        "techTitle":"Designo Website",
+        "techUsed":"Built using React, React-Router, Context and styled with SCSS. Fully desktop, tablet and mobile responsive."
       },
       {
         "title":"Secrets",
@@ -182,10 +165,26 @@
         "url":"https://powerful-shelf-53750.herokuapp.com/",
         "sourceurl": "https://github.com/nwkwok/SecretsApp",
         "techTitle":"Secrets Web App",
-        "frontEnd":"Front-end: HTML/CSS/JS",
-        "backEnd":"Back-end: Nodejs, Express and EJS. Bcrypt for encryption and Google OAuth using Passportjs. Deployed on Heroku",
-        "db":"Database: MongoDB & Mongoose ORM"
+        "techUsed":"HTML/CSS/EJS for frontend and built the API with Node/Express, Bcrypt and OAuth for authentication and Mongoose to interact with MongoDB."
       },      
+      {
+        "title":"Countries App",
+        "category":"Need information about a country? Look no further!",
+        "image":"rest-countries.jpg",
+        "url":"https://rest-countries-api.nwkwok.vercel.app",
+        "sourceurl": "https://github.com/nwkwok/Frontend-Mentor-Challenges2/tree/main/rest-countries-api-with-color-theme-switcher-master",
+        "techTitle":"Countries App",
+        "techUsed":"Built with React, React-Router, SCSS and the REST Countries API with the ability to toggle themes."
+      },
+      {
+        "title":"IP Address Finder",
+        "category":"Need to find a location by the IP Address? You can use this web app. If you leave the box empty, you can also get your own location!",
+        "image":"ip-address-tracker.jpg",
+        "url":"https://ip-address-tracker.nwkwok.vercel.app",
+        "sourceurl": "https://github.com/nwkwok/Frontend-Mentor-Challenges/tree/main/ip-address-tracker-master",
+        "techTitle":"IP Address Tracker",
+        "techUsed":"Built with HTML/CSS/JS, jQuery/AJAX, the Leaflet and MapBox APIs for the map and pins"
+      },
       {
         "title":"Restaurant Finder",
         "category":"Look up reviewed restaurants and/or add your own restaurant to critique with this handy React Restaurant App!",
@@ -193,9 +192,16 @@
         "url":"https://nwkwok-yelp.herokuapp.com/",
         "sourceurl": "https://github.com/nwkwok/Yelp-Clone",
         "techTitle":"Restaurant Finder",
-        "frontEnd":"Front-end: React Bootstrap",
-        "backEnd":"Back-end: Node, Express and Axios for requests.",
-        "db":"Database: PostgreSQL with pg-pool for db queries."
+        "techUsed":"Built with Reactand  styled with React-Bootstrap. API calls use Axios. API built using Node/Express using PostgreSQL for the DB."
+      },
+      {
+        "title":"Burger Builder",
+        "category":"Create and order a delicious burger :)",
+        "image":"burger.jpg",
+        "url":"https://react-my-burger-a6da6.web.app/",
+        "sourceurl": "https://github.com/nwkwok/React",
+        "techTitle":"Burger Builder",
+        "techUsed":"Built with React styled with React modules. Used firebase for authentication, database and deployment."
       },
       {
         "title":"React Shopping List",
@@ -203,12 +209,10 @@
         "image":"shopping-list.jpg",
         "url":"https://react-hooks-2e5ac.web.app/",
         "sourceurl": "https://github.com/nwkwok/React",
-        "techTitle":"React Shopping List",
-        "frontEnd":"Front-end: React showcasing the use of useState, Context, Memo, Ref, Reducer and Callback hooks.",
-        "backEnd":"Back-end: Fetch API to Firebase and Firebase Deployment",
-        "db":"Database: Firebase"
-      },
+        "techTitle":"Countries App",
+        "techUsed":"Built using React and React Bootsrap showcasing the use of ALL built-in React Hooks. DB and deployment with Firebase."
 
+      },
       {
         "title":"React Todo List",
         "category":"Need a quick todo list to help you keep track of your day? Check this one out!",
@@ -216,9 +220,7 @@
         "url":"https://nwkwok-todo.herokuapp.com/",
         "sourceurl": "https://github.com/nwkwok/PERN-to-do",
         "techTitle":"React Todo List",
-        "frontEnd":"Front-end: React & Bootstrap",
-        "backEnd":"Back-end: Nodejs, Express and Fetch API for requests",
-        "db":"Database: PostgreSQL utilizing pg-pool for DB queries."
+        "techUsed":"Built with React and React Bootsrap. API made with Node/Express and used PostreSQL for the DB."
       },
       {
         "title":"Task List Creator",
@@ -227,9 +229,25 @@
         "url":"https://desolate-scrubland-58793.herokuapp.com/",
         "sourceurl": "https://github.com/nwkwok/NodeJS-Projects",
         "techTitle":"EJS Todo List",
-        "frontEnd":"Front-end: HTML/CSS/JS",
-        "backEnd":"Back-end: Nodejs & Express with EJS to serve pages and Lodash. Deployed on Heroku.",
-        "db":"Database: MongoDB & Mongoose ORM"
+        "techUsed":"Built using EJS templating with a Node/Express API. Used Mongoose to interact with MongoDB and deployed on Heroku."
+      },
+      {
+        "title":"The Roof Tiger",
+        "category":"Roofing company that needed a website redesigned and deployed in one week that could gather contacts from customers.",
+        "image":"roof-tiger.gif",
+        "url":"http://www.therooftiger.com",
+        "sourceurl": "http://www.therooftiger.com",
+        "techTitle":"The Roof Tiger (See .gif for my original design - site has changed)",
+        "techUsed":"Build with WordPress. Used Elementor to design, WPForms for customer database and WooCommerce to setup future eCommerce."
+      },
+      {
+        "title":"TripSpirian",
+        "category":"Need inspiration for your next travel destination? Look no further!",
+        "image":"tripspirian.jpg",
+        "url":"https://github.com/nwkwok/Tripspirian",
+        "sourceurl": "https://github.com/nwkwok/Tripspirian",
+        "techTitle":"Countries App",
+        "techUsed":"Built with React, React-Router and SCSS. Finished API made with Node/Express using Bcrypt & JWT for auth with PostgreSQL as the DB."
       },
       {
         "title":"Github Repos",
@@ -238,7 +256,7 @@
         "url":"https://github.com/nwkwok",
         "sourceurl": "https://github.com/nwkwok",
         "techTitle":"Github Repos",
-        "description":"I have lots of other undeployed side projects as well. You can check them out at my Github Repo!"
+        "techUsed":"As a passionate coder, I push code to GitHub almost every, single day. Following along with my projects and learning on my GitHub!"
       }
     ]
   },

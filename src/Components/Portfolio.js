@@ -20,7 +20,7 @@ class Portfolio extends Component {
       },
       image: {
         width: '500px',
-        height: '323px'
+        height: '323px',
       }
     }
 
@@ -69,7 +69,7 @@ class Portfolio extends Component {
 
     return (
       <section id='portfolio'>
-        <div>
+        <div className='something'>
           <div>
             <h1>Check Out Some of Projects!</h1>
 

@@ -96,7 +96,14 @@
 
      /* Portfolio Section
   /* ----------------------------------------------------------------- */
-  #portfolio-wrapper .columns { margin-bottom: 40px; }
+   #portfolio .something {
+      margin-left: 20px;
+   }
+
+  #portfolio-wrapper .columns { 
+      margin-bottom: 40px; 
+   }
+
   .popup-modal {	max-width: 85%; }
 
 @media only screen and (max-width: 767px) {

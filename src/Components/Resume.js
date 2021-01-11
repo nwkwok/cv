@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FontAwesome from './FontAwesome'
 
+
 class Resume extends Component {
   render() {
 

@@ -1,15 +1,37 @@
 import React, { Component } from 'react';
 
+const styles = {
+  flex: {
+    display: 'flex',
+    justifyContent: 'center',
+    flexWrap: 'wrap',
+    alignItems: 'flex-end'
+  }
+}
+
+
 class Portfolio extends Component {
   render() {
+
+    const item = {
+      sizing: {
+        width: '500px',
+        margin: '15px'
+      },
+      image: {
+        width: '500px',
+        height: '323px'
+      }
+    }
+
     if (this.props.data) {
       var projects = this.props.data.projects.map(function (projects) {
         var projectImage = 'images/portfolio/' + projects.image;
         return (
-          <div key={projects.title} className='portfolio-item item-container'>
+          <div key={projects.title} className='portfolio-item' style={item.sizing}>
             <div className='item-wrap'>
               <a href={projects.url} title={projects.title}>
-                <img alt={projects.title} src={projectImage} />
+                <img alt={projects.title} src={projectImage} style={item.image} />
                 <div className='overlay'>
                   <div className='portfolio-item-meta'>
                     <h5>{projects.title}</h5>
@@ -52,8 +74,8 @@ class Portfolio extends Component {
             <h1>Check Out Some of Projects!</h1>
 
             <div id='portfolio-wrapper' 
-            className='nick'
-            >
+              className='nick' style={styles.flex}
+              >
               {projects}
             </div>
           </div>

@@ -1,8 +1,8 @@
 {
   "main": {
     "name":"Nick Kwok",
-    "occupation":"Full Stack Developer",
-    "description":"I bring an undying passion for coding, a conviction for excellence, an unending desire to learn/grow as a developer and a heart to coach, train and empower others",
+    "occupation":"Full Stack Python and Javascript Developer",
+    "description":"I turn project concepts into meaningful experiences for users. My favorite way to do this is by using ReactJS to build an interactive and responsive UI, PostgreSQL to make scalable data models and plugging the two together by making APIs with Node + Express or with Django",
     "image":"profilepic.jpg",
     "bio":"I am a developer that is passionate about empowering people and businesses through the power of technology. I enjoy experimenting with new technologies and incorporating them into new projects. I'm currently developing an app called TripSpirian utilizing a React, Experss, Node and PostgreSQL stack and pushing code to my GitHub almost everyday! If you want to connect and talk dev, my contact info is below!",
     "contactmessage":"Wanna talk tech and/or collaborate on a future project? Drop me a message and lets connect!",
@@ -159,6 +159,15 @@
         "techUsed":"Built using React, React-Router, Context and styled with SCSS. Fully desktop, tablet and mobile responsive."
       },
       {
+        "title":"Django Blog",
+        "category":"Use this platform to post development related material!",
+        "image":"django-blog.jpg",
+        "url":"https://nick-django-blog.herokuapp.com/",
+        "sourceurl": "https://github.com/nwkwok/Python/commits/main/django-blog/project",
+        "techTitle":"Django Blog",
+        "techUsed":"Deployed on heroku using AWS S3 buckets for image storage and PostgreSQL as the DB. Styled with Bootstrap and Crispy Forms."
+      },  
+      {
         "title":"Secrets",
         "category":"Post one anonymous secret, read countless others!",
         "image":"secrets.jpg",
@@ -209,7 +218,7 @@
         "image":"shopping-list.jpg",
         "url":"https://react-hooks-2e5ac.web.app/",
         "sourceurl": "https://github.com/nwkwok/React",
-        "techTitle":"Countries App",
+        "techTitle":"React Shopping List",
         "techUsed":"Built using React and React Bootsrap showcasing the use of ALL built-in React Hooks. DB and deployment with Firebase."
 
       },
@@ -246,7 +255,7 @@
         "image":"tripspirian.jpg",
         "url":"https://github.com/nwkwok/Tripspirian",
         "sourceurl": "https://github.com/nwkwok/Tripspirian",
-        "techTitle":"Countries App",
+        "techTitle":"TripSpirian",
         "techUsed":"Built with React, React-Router and SCSS. Finished API made with Node/Express using Bcrypt & JWT for auth with PostgreSQL as the DB."
       },
       {

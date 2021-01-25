@@ -27,7 +27,6 @@ class Footer extends Component {
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home">
           <FontAwesome fa="fas fa-chevron-up"/>
-          {/* <i className="fas fa-chevron-up"></i> */}
           </a></div>
      </div>
   </footer>
